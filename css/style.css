@@ -1,0 +1,97 @@
+body{
+  margin:0;
+  text-align: center;
+}
+h1{
+  margin: 50px auto 0 auto;
+  font-family: 'Fasthand', cursive;
+  font-size: 5.625rem;
+  color: #AA8B56;
+  line-height: 2;
+}
+h2{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  color: #4E6C50;
+  font-weight: normal;
+}
+.hello{
+  color: #C8DBBE;
+}
+.getInTouch{
+  color:#C8DBBE;
+}
+h3{
+  color: #EDE4E0;
+}
+.top-container{
+  background-color: #C8DBBE;
+  margin: 0;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container{
+  background-color: #4E6C50;
+  padding-bottom: 50px;
+}
+.bottom-container{
+  background-color: #AA8B56;
+}
+.pro{
+  text-decoration: underline;
+}
+.top-cloud{
+  height: 75px;
+  width: 75px;
+  position: absolute;
+  bottom: 500px;
+  left: 300px;
+}
+.bottom-cloud{
+  position: absolute;
+  height: 75px;
+  width: 75px;
+  right: 300px;
+  top: 300px;
+}
+.mountain{
+  height: 250px;
+  width: 300px;
+}
+.profile-pic{
+  height: 100px;
+  width: 100px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.comp-pic{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.hike-pic{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.btn{
+  background: #F0EBCE;
+  background-image: linear-gradient(top, #F0EBCE, #F0EBCE);
+  background-image: linear-gradient(to bottom, #F0EBCE, #F0EBCE);
+  border-radius: 28px;
+  font-family: Courier New;
+  color: #395144;
+  font-size: 30px;
+  padding: 10px 20px 10px 20px;
+}
+
+.btn:hover {
+  background: #AA8B56;
+  background-image: linear-gradient(top, #AA8B56, #AA8B56);
+  background-image: linear-gradient(to bottom, #AA8B56, #AA8B56);
+  text-decoration: none;
+}
